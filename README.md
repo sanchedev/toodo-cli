@@ -17,7 +17,7 @@ npm install
 npm link
 ```
 
-# Usage
+## Usage
 
 ```bash
 toodo <command> [options]
