@@ -1,0 +1,24 @@
+{{command_name}} :.33m{{version}}:.0m
+
+Usage: {{command}} list [options]
+
+:.90mList tasks.:.0m
+
+:.90;1mOptions::.0m
+
+  -h, --help               Show this help.
+
+  :.90;1mFilters::.0m
+
+  --completed              Show only completed tasks.
+  --pending                Show only pending tasks.
+
+:.90;1mExamples::.0m
+
+  - List all tasks
+
+    :.34m$ {{command}} list:.0m
+
+  - List completed tasks
+
+    :.34m$ {{command}} list --completed:.0m
