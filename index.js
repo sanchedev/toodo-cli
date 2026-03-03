@@ -1,3 +1,5 @@
+#!/usr/bin/env node
+
 const { help } = require('./commands/help')
 const { listCommand } = require('./commands/list')
 const { showCommand } = require('./commands/show')
