@@ -1,0 +1,26 @@
+{{command_name}} :.33m{{version}}:.0m
+
+Usage: {{command}} create [options]
+
+:.90mCreate a new task:.0m
+
+:.90;1mOptions::.0m
+
+  -h, --help               Show this help.
+
+  -t, --title <title>      Title of the task
+  -d, --description <text> Description of the task
+
+:.90;1mExamples::.0m
+
+  - Create task
+
+    :.34m$ {{command}} create:.0m
+
+  - Create task with a defined title
+
+    :.34m$ {{command}} create -t "Remember don't deploy on friday":.0m
+
+  - Create task without description
+
+    :.34m$ {{command}} create -d:.0m
