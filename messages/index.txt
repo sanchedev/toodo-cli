@@ -1,0 +1,36 @@
+{{command_name}} :.33m{{version}}:.0m
+
+Usage: {{command}} <command> [options]
+
+:.90mProgram to create and view tasks.:.0m
+
+:.90mFor help about any command use `{{command}} [command] --help`.:.0m
+
+:.90;1mOptions::.0m
+
+  -h, --help               Show this help.
+  -v, --version            Show the version of this program.
+
+:.90;1mCommands::.0m
+
+  list                     List all tasks with optional filters.
+  create                   Create a new task with the given title and options.
+  show                     Display detailed information for a specific task.
+  update                   Modify the title or properties of an existing task.
+  delete                   Remove a task permanently by its ID.
+  complete                 Mark a task as completed.
+  uncomplete               Mark a completed task as pending again.
+
+:.90;1mExamples::.0m
+
+  - Create a task with a defined title
+  
+    :.34m$ {{command}} create -t "Start Toodo Project":.0m
+  
+  - List all tasks
+
+    :.34m$ {{command}} list:.0m
+
+  - Mark a task as completed
+
+    :.34m$ {{command}} complete 3:.0m
