@@ -2,7 +2,7 @@
 
 Usage: {{command}} <command> [options]
 
-:.90mProgram to create and view tasks.:.0m
+:.90mA simple task manager for your terminal.:.0m
 
 :.90mFor help about any command use `{{command}} [command] --help`.:.0m
 
