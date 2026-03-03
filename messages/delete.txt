@@ -1,0 +1,16 @@
+{{command_name}} :.33m{{version}}:.0m
+
+Usage: {{command}} delete <id>
+
+:.90mDelete a task by its ID.:.0m
+
+:.90;1mOptions::.0m
+
+  -h, --help               Show this help.
+
+:.90;1mExamples::.0m
+
+  - Delete a task
+
+    :.34m$ {{command}} delete 1:.0m
+
