@@ -1,0 +1,16 @@
+{{command_name}} :.33m{{version}}:.0m
+
+Usage: {{command}} complete <id>
+
+:.90mComplete a task by its ID.:.0m
+
+:.90;1mOptions::.0m
+
+  -h, --help               Show this help.
+
+:.90;1mExamples::.0m
+
+  - Complete a task
+
+    :.34m$ {{command}} complete 8:.0m
+

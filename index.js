@@ -4,6 +4,8 @@ const { showCommand } = require('./commands/show')
 const { createCommand } = require('./commands/create')
 const { updateCommand } = require('./commands/update')
 const { deleteCommand } = require('./commands/delete')
+const { completeCommand } = require('./commands/complete')
+const { uncompleteCommand } = require('./commands/uncomplete')
 
 async function main() {
   const args = process.argv.slice(2)
@@ -19,6 +21,8 @@ async function main() {
   await createCommand(args)
   await updateCommand(args)
   await deleteCommand(args)
+  await completeCommand(args)
+  await uncompleteCommand(args)
 
   console.error('Invalid command')
   process.exit(1)
