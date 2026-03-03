@@ -1,0 +1,22 @@
+{{command_name}} :.33m{{version}}:.0m
+
+Usage: {{command}} update <id> [options]
+
+:.90mUpdate a task by its ID.:.0m
+
+:.90;1mOptions::.0m
+
+  -h, --help               Show this help.
+
+  -t, --title <title>      Title of the task (optional)
+  -d, --description <text> Description of the task (optional)
+
+:.90;1mExamples::.0m
+
+  - Update task
+
+    :.34m$ {{command}} update 1 -t "Hello" -d "World":.0m
+
+  - Update only the title
+
+    :.34m$ {{command}} update 1 -t "New title":.0m
