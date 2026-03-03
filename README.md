@@ -3,6 +3,7 @@
 A simple task manager for your terminal.
 
 ![Node](https://img.shields.io/badge/node-%3E=20-green)
+[![License](https://img.shields.io/badge/license-MIT-blue)](https://github.com/sanchedev/toodo-cli/blob/main/LICENSE)
 ![License](https://img.shields.io/badge/toodo-v1.0.0-brightgreen)
 
 ## Instalation
