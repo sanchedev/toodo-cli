@@ -25,4 +25,4 @@ const processMessage = (message) => {
   return data
 }
 
-module.exports = { getMessage }
+module.exports = { getMessage, processMessage }

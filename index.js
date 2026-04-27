@@ -8,6 +8,7 @@ const { updateCommand } = require('./commands/update')
 const { deleteCommand } = require('./commands/delete')
 const { completeCommand } = require('./commands/complete')
 const { uncompleteCommand } = require('./commands/uncomplete')
+const { version } = require('./commands/version')
 
 async function main() {
   const args = process.argv.slice(2)
@@ -18,6 +19,7 @@ async function main() {
   }
 
   await help(args)
+  await version(args)
   await listCommand(args)
   await showCommand(args)
   await createCommand(args)
